@@ -4,6 +4,51 @@
   box-sizing: border-box;
 }
 
-ul {
+#header {
+  background-color: #333;
+}
+
+#navbar {
   list-style-type: none;
+  overflow: hidden;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#navbar ul {
+  list-style-type: none;
+}
+
+.navbar-icon{
+  display: block;
+  float: left;
+  height: 100%;
+}
+
+.navbar-item {
+  float: right;
+}
+
+.navbar-item a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  height: 70px;
+  font-size: 20px;
+  text-decoration: none;
+  
+}
+
+.navbar-item a:hover {
+  background-color: #111;
+}
+
+#home{
+  background-image: url(images/Suvero3.jpg);
+  height: 1000px;
+  background-position: center center;
+  background-size: cover;
 }
